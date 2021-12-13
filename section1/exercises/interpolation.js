@@ -22,7 +22,10 @@ var creatures = "unicorns";
 console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: 
+// Your answer and explanation here:
+/* The console will show "My zoo has 7 unicorns!" because utilizing interpolation syntax allows the
+values of var 'numberOfCreatures' and var 'creatures' to be insterted into a string that displays with
+additional context included in the console log command. */
 
 
 // YOU DO:
@@ -31,7 +34,9 @@ console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
+var example1 = `The ${speedy} jumped over the ${slowPoke}`;
 
+console.log(example1);
 // YOU DO:
 // Write code that combines the variables below into a string that
 // reads "In a predictable result, the tortoise beat the hare!"
@@ -39,17 +44,23 @@ var slowPoke = "lazy brown dog";
 
 slowPoke = "tortoise";
 speedy = "hare";
+var example2 = `In a predictable result, the ${slowPoke} beat the ${speedy}!`;
 
+console.log(example2);
 
 // YOU DO:
-// Declare three variables, name/content/data type of your choice. Think carefully about what 
+// Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
-  // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation. 
+  // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
+var plant = "pothos";
+var waterFrequency = 2;
+var timePeriod = "week";
+var plantCare = `I need to water my ${plant} ${waterFrequency} times per ${timePeriod} on average.`;
 
-
+console.log(plantCare);
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
+// Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.
