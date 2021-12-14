@@ -12,7 +12,7 @@ Make sure to run the file with node in your command line.
 // EXAMPLE:Manipulate the variable 'weather' to see if you can print something other
   // than 'coat'.
 
-var weather = 'snowy';
+var weather = 'icy';
 // var weather = 'icy';
 // var weather = 'rainy';
 // var weather = 'sunny';
@@ -31,18 +31,25 @@ if (weather == 'sunny') {
   console.log('good to go!');
 }
 
-/* 
+/*
 YOU DO:
-Using the dogAge variable defined below, 
-determine if a dog is a puppy (2 or younger), 
+Using the dogAge variable defined below,
+determine if a dog is a puppy (2 or younger),
 an adult, or elderly (10 or older).
-
 Log to the console the appropriate age range
 (puppy, adult, elderly).
 */
 
-var dogAge = 3;
+var dogAge = 10;
 // Write your conditional here
+
+if (dogAge <= 2){
+  console.log('puppy');
+} else if (dogAge >=10) {
+  console.log('elderly');
+} else {
+  console.log('adult');
+}
 
 
 /*
@@ -62,13 +69,33 @@ When numQuarters = 2, program should log "I have enough money for a gumball"
 When numQuarters = 3, program should log "I have enough money for a gumball"
 */
 
-var numQuarters = 0;
+var numQuarters = 3;
 
 // Write your conditional here
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
+//if (numQuarters === 0){
+  //console.log("I don't have enough money for a gumball");
+//}
+/*else*/ if (numQuarters < 2){
+  console.log("I don't have enough money for a gumball");
+}
+// else if (numQuarters === 2) {
+  //console.log("I have enough money for a gumball");
+//}
+else if (numQuarters >=2){
+  console.log("I have enough money for a gumball");
+}
+/* I had each value of 0,1,2,3 quarters written out, but I thought it made more
+sense to do a less than and a greater than or equal to condition. Especially
+if the input was somehow negavite, like they owed a quarter, or someone entered a float.*/
 
+//SECOND attempt at gumball question
 
+if ((numQuarters === 0) || (numQuarters ===1)) {
+  console.log("I don't have enough money for a gumball.");
+}
+else if ((numQuarters === 2) || (numQuarters >=3)) {
+  console.log("I have enough money for a gumball.");
+}
 /*
 YOU DO:
 Using the variables defined below, determine if you have the
@@ -82,15 +109,29 @@ When cupsOfFlour = 2 and hasSauce = true, your program should log "I can make pi
 When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pizza";
 */
 
-var cupsOfFlour = 1;
+var cupsOfFlour = 4;
 var hasSauce = true;
 
 // Write your conditional here
 
-
+if ((cupsOfFlour >= 2) && (hasSauce === true)) {
+    console.log("I can make pizza!");
+} else if ((cupsOfFlour < 2) || (hasSauce === false)) {
+    console.log("I cannot make pizza :(");
+}
 /*
-For the last two exercises, an ideal solution probably uses a logical operator. 
+For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
+  My first solution for the gumball question did not but I decided to rewrite it
+  with the 'Logical Or' operator. I think for the simplicity of the question, my original
+  solution worked, however I realized that maybe I wasn't coding exactly to the prompt.
 
-*/
+  I feel semi-comfortable with the concept of a logical operator. It is an easier way
+  to compare the results of multiple comparison operators in one line of code.
+
+  I am not confident that I wrote the most efficient code for the above prompts.
+  I think coding to the prompt exactly was a challenge and also getting a bit stuck
+  in edege cases, especially regarding the number variables being able to be floats
+  or negative would change the output.
+  */

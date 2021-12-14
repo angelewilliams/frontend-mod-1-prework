@@ -9,7 +9,7 @@ Section 2 is estimated to take a total of 8-12 hours to complete. Similar to Sec
 
 ## Vocabulary
 
-This section will introduce a number of new terms, that may feel a bit more complex. Write these terms and reserved keywords in that special spot in your notebook now. Work to hold yourself acocuntable to updating definitions _as you work through this section_.
+This section will introduce a number of new terms, that may feel a bit more complex. Write these terms and reserved keywords in that special spot in your notebook now. Work to hold yourself accountable to updating definitions _as you work through this section_.
 
 ### Vocabulary Terms
 
@@ -42,7 +42,7 @@ Read the three blog posts that follow:
 * [Asking better questions](https://dev.to/josefine/asking-better-questions-2e2k)
 * [Your Questions Are Dumb; Ask Them Anyway](https://dev.to/kathryngrayson/your-questions-are-dumb-ask-them-anyway-3cm6)
 
-Reflect on these posts, and how you feel about asking questions (specifically, technical questions as you enter your technical work at Turing). How might this positively or negatively impact your growth? 
+Reflect on these posts, and how you feel about asking questions (specifically, technical questions as you enter your technical work at Turing). How might this positively or negatively impact your growth?
 
 It's going to take some time to find that balance between googling and pushing yourself to solve a problem without hand-holding, and reaching out for help. That's ok! be patient with yourself. The way you will find that balance is by being cognizant and aware of how you currently operate. Keep this on your mind as you work through this section, and... there is no time like the present to start asking questions!
 
@@ -60,6 +60,7 @@ When you learned about Booleans in Section 1, you briefly read about and practic
 
 The conditional operators we touched on earlier are critical in the set up of if statements. Conditional statements (conditions) evaluate to `true` or `false`. The most common operators used for conditions are comparison operators:
 * `===` (strictly equal)
+* `==` (equal to, but not strictly)
 * `!==` (not equal)
 * `>` (greater than)
 * `>=` (greater than or equal to)
@@ -70,6 +71,7 @@ Some data types also have functions which return a `true` or `false`, so they’
 
 - Read more about [comparison operators here](https://javascript.info/comparison)
 - Read about [logical operators here](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript). You really just need to read the top first paragraph and code snippet in this post. You'll go deeper in Mods 1-2.
+
 
 > 👨🏽‍💻 PAUSE here, and complete the exercises in `comparisons.js`
 
@@ -125,7 +127,7 @@ The **number one mistake** people encounter when writing conditional statements 
 
 * `=` is an assignment. It means "take the value on the right side and store it into whatever is on the left side" – it’s telling, not asking.
 
-* `===` is a question. It means "is the value on the right the exact same as the value on the left?" – it’s asking, not telling.
+* `===` is a question. It means "is the value on the right the _exact_ same as the value on the left?" – it’s asking, not telling.
 
 > 👨🏽 ‍💻PAUSE here, and complete the exercises in `decision-making.js` and `if-statements.js`
 
