@@ -1,7 +1,7 @@
 # Section 4 - Objects, Classes and Code Challenges
 
 Section 4 is estimated to take a total of 10-14 hours to complete. Similar to the previous sections, this section of pre-work involves reading (both from this document as well as the 📒John Duckett book), 👨🏾‍💻exercises, and 📝reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline.
-
+2
 - [Vocabulary](#Vocabulary)
 - [Part A: How You Spend Your Time](#Part-A-How-You-Spend-Your-Time)
 - [Part B: Objects](#Part-B-Arrays)
@@ -27,7 +27,7 @@ Section 4 is estimated to take a total of 10-14 hours to complete. Similar to th
 
 ## Part A How You Spend Your Time
 
-One challenge developers face, moreso when they are starting out, is estimating how long something will take. Sometimes we don't account for merge conflicts, bugs, annoying Slack messages, and all the other things that interrupt our workflow or slow us down.
+One challenge developers face, more so when they are starting out, is estimating how long something will take. Sometimes we don't account for merge conflicts, bugs, annoying Slack messages, and all the other things that interrupt our workflow or slow us down.
 
 One challenge learners in a new environment/content area face is feeling like they know nothing, and until they know everything, they feel like they are failing.
 
@@ -163,7 +163,7 @@ var deposit = new TransactionItem();
 
 ### State (Properties)
 
-Proerties contains data about a specific object. We also refer to this group of data as **state**. The information format should be one of the data types we've learned about (String, Number, Boolean, Array, Object).
+Properties contains data about a specific object. We also refer to this group of data as **state**. The information format should be one of the data types we've learned about (String, Number, Boolean, Array, Object).
 
 The example that follows has 3 properties in state - `amount`, `date`, and `type`. They are declared _inside_ of the `constructor` method _inside_ of the class.
 

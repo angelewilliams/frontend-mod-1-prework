@@ -1,7 +1,6 @@
 /*
 In the exercise below, write your own code where indicated
 to achieve the desired result.
-
 Make sure to run the file with node in your command line.
 */
 
@@ -18,3 +17,17 @@ var lunchOrder = {
   beverage: "iced tea",
   tableNumber: 47
 }
+
+lunchOrder.prepare = function() {
+  console.log("Your order is being prepared.");
+}
+//checking work that string is logged to the console when prepare function is called
+lunchOrder.prepare();
+
+lunchOrder.complete = function () {
+  console.log("Your order is ready.");
+}
+
+console.log(lunchOrder);
+ lunchOrder.prepare();
+ lunchOrder.complete();
