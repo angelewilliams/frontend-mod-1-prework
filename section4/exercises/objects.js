@@ -127,33 +127,32 @@ good to have some exposure before going into Mod 1.
 // Then, log the email Array to the console.
 
 var emails = [
-{
-  sender:"sender@gmail.com",
-  subject:"Updated plans",
-  date: "10/15/21",
-  time:"10:50am",
-  isImportant: true,
-  mailedBy:"gmail.com"
-},
-{
-  sender:"noreply.status@hellofresh.com",
-  subject:"Your meal kit is on the way",
-  date: "11/5/21",
-  time:"12:00pm",
-  isImportant: true,
-  mailedBy:"hellofresh.com"
+  {
+    sender:"sender@gmail.com",
+    subject:"Updated plans",
+    date: "10/15/21",
+    time:"10:50am",
+    isImportant: true,
+    mailedBy:"gmail.com"
+  },
+  {
+    sender:"noreply.status@hellofresh.com",
+    subject:"Your meal kit is on the way",
+    date: "11/5/21",
+    time:"12:00pm",
+    isImportant: true,
+    mailedBy:"hellofresh.com"
 
-},
+  },
 
-{
-  sender:"orders@fashiondog.com",
-  subject:"Save on Dog Sweaters NOW",
-  date: "12/11/21",
-  time:"1:50pm",
-  isImportant: false,
-  mailedBy:"fashiondog.com"
-}
-
+  {
+    sender:"orders@fashiondog.com",
+    subject:"Save on Dog Sweaters NOW",
+    date: "12/11/21",
+    time:"1:50pm",
+    isImportant: false,
+    mailedBy:"fashiondog.com"
+  }
 ]
 
 console.log(emails);

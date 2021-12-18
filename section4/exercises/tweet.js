@@ -21,11 +21,14 @@ class Tweet {
     this.numberOfLikes = (this.numberOfLikes + 1)
   }*/
   incrementNumberOfLikes(addLike, removeLike){
-   if (addLike === true && removeLike === false) {this.numberOfLikes = this.numberOfLikes +1
+   if (addLike === true && removeLike === false)
+      {this.numberOfLikes = this.numberOfLikes +1
    }
-   else if (addLike ===true && removeLike === true) {this.numberOfLikes = this.numberOfLikes
+   else if (addLike ===true && removeLike === true)
+      {this.numberOfLikes = this.numberOfLikes
    }
-   else if  (addLike ===false && removeLike === true) {this.numberOfLikes = this.numberOfLikes -1}
+   else if  (addLike ===false && removeLike === true)
+      {this.numberOfLikes = this.numberOfLikes -1}
 
    else [this.numberOfLikes = this.numberOfLikes]
   }

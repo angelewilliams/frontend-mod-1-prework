@@ -53,7 +53,7 @@ console.log(example2);
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
 var plant = "pothos";
-var waterFrequency = 2;
+var wateringFrequency = 2;
 var timePeriod = "week";
 var plantCare = `I need to water my ${plant} ${waterFrequency} times per ${timePeriod} on average.`;
 

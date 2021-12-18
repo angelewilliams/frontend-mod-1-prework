@@ -63,7 +63,7 @@ console.log("hello" === "Hello");
 console.log(3 != 4);
 
 // YOU DO: log to the console the result of 4 is less than or equal to 5:
-console.log(4<=5);
+console.log(4 <= 5);
 
 
 //-------------------

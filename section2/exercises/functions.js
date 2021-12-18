@@ -62,10 +62,10 @@ sumNumbers(1,1);
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
-function concatPractice (wet, dry){
+function ingredients (wet, dry){
   console.log('To make frosting, you have to add the ' + wet + ' to the ' + dry  + '.');
 }
-concatPractice('milk','powedered sugar');
+ingredients('milk','powedered sugar');
 
 
 //-------------------

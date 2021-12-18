@@ -18,17 +18,19 @@ var numberStudents = 20;
 var stringTeachers = "4";
 var numberDogs = 0;
 
+//for YOU DO sections below I added the question so that the console log would have more context.
+
 // EXAMPLE: log the result of the comparison: is numberTeachers greater than numberStudents?
 console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
-console.log(numberTeachers < numberStudents);
+console.log("Is numberTeachers less than numberStudents?" , numberTeachers < numberStudents);
 
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
 // this should log: true
-console.log(numberTeachers == stringTeachers);
+console.log("Is numberTeachers equal to stringTeachers?" , numberTeachers == stringTeachers);
 /*
 Note: this is an example of type coercion. Although stringTeachers is a string and numberStudents is an integer,
 this statement still evaluated to true. JavaScript forces the stringTeachers into an integer to
@@ -37,7 +39,7 @@ perform this evaluation
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
 // this should log: false
-console.log(numberTeachers === stringTeachers);
+console.log("Is numberTeachers strictly equal to stringTeachers?" , numberTeachers === stringTeachers);
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
 since the numberTeachers is an integer value and the stringTeachers is a string value, although they are both equal to 4,
@@ -50,19 +52,19 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
-console.log(numberTeachers !== numberStudents);
+console.log("Is numberTeachers not equal to numberStudents?" ,numberTeachers !== numberStudents);
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
-console.log(numberStudents >= 20);
+console.log("Is numberStudents greater than or equal to 20?" , numberStudents >= 20);
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
-console.log(numberStudents >= 21);
+console.log( "Is numberStudents greater than or equal to 21?" , numberStudents >= 21);
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
-console.log(numberStudents <= 20);
+console.log("Is numberStudents less than or equal to 20?", numberStudents <= 20);
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
-console.log(numberStudents <= 21);
+console.log("Is numberStudents less than or equal to 21?" , numberStudents <= 21);
 //-------------------
 // PART 2: Articulating what you are doing
 //-------------------
@@ -106,7 +108,7 @@ console.log(isHungry || finishedHomework);
 var lovesToPlay = true;
 var lovesDogPark = false;
 var lovesTreats = true;
-var age = 1;
+var dogAge = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
@@ -119,7 +121,7 @@ console.log(lovesToPlay && lovesDogPark);
 console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
-console.log(lovesToPlay && age < 2 );
+console.log(lovesToPlay && dogAge < 2 );
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 /* ANSWER: It evaluated to being true becuase I defined a dog as being a
 puppy if its age was less than 2. Because this dog 'lovesToPlay' and it's age is
